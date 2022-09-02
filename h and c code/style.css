@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: byekan;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: byekan;
+    src: url('../fonts/Byekan.ttf') format('truetype'),
+         url('../fonts/Byekan.woff') format('woff');
+}
+@font-face{
+    font-family: lalezar;
+    src: url('../fonts/lalezar.ttf') format('truetype'),
+         url('../fonts/lalezar.woff') format('woff');
+}
+.header{
+    height: 600px;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.navbar{
+    text-decoration: none;
+}
+.navt{
+    display: inline-block;
+    padding: 10px;
+}
+.navt:hover{
+    color: orange;
+}
+.ht{
+    margin-top: 100px;
+    font-family: lalezar;
+    font-size: 40px;
+}
+.ht span{
+    color: orange;
+}
+.pt{
+    margin: 20px auto;
+    background-color:rgba(0,0,0,.5);
+    width: 320px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid white;
+    
+}
+.members{
+    text-align: center;
+    
+    
+}
+.member-title{
+    padding: 20px 30px;
+}
+.member-all{
+    list-style-type: none;
+}
+.member-list{
+    width: 350px;
+    display: inline-block;
+    padding: 20px;
+    box-shadow: 0 0 15px #66666b;
+}
+.members-pic{
+    width: 100%;
+}
+.member-name{
+    margin: 5px;
+    font-size: 25px;
+}
+.member-bio{
+    text-align: justify;
+}
+/*about*/
+.about{
+    height: 700px;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #4a454f;
+    padding-top: 50px;
+}
+.about-item{
+    background-color:rgba(0,0,0,.5);
+    width: 600px;
+    height: 600px;
+    margin:auto;
+    color: white;
+    border-radius: 50%;
+    padding: 70px
+}
+.about-item h2{
+    text-align: center;
+    font-size: 25px;
+}
+.about-item p{
+    text-align: justify;
+    padding-top:20px;
+    font-size: 20px;
+}
+/*social*/
+.social{
+    height: 60px;
+    background-color:lightgray;
+    margin-top:20px;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 5px;
+}
+.image-social{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+}
+.image-social:hover{
+    box-shadow: 0 0 20px black;
+    border-radius: 10px;
+}
+.end{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
